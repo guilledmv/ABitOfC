@@ -1,6 +1,8 @@
 // We need include the library stdio
 #include <stdio.h>
 // Variables ready for use in C
+// Constant for use in some code
+#define PI 3.1416
 
 int main() {
   int n = 3; // it's a integer value, which is initialized with 3
@@ -12,5 +14,6 @@ int main() {
   printf("Value of n : %i \n",n);
   printf("Value of y : %f \n Value of x : %f \n",y,x);
   printf("Value of a : %c \n",a);
+  printf("Value of PI %f \n",PI);
   return 0;
   }
